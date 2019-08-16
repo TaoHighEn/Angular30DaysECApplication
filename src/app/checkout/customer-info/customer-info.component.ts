@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+// Constant
+import { appPath } from 'src/app/app-path.const';
 
 @Component({
   selector: 'app-customer-info',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomerInfoComponent implements OnInit {
 
-  constructor() { }
+  path = appPath;
 
+  constructor() {
+  }
   ngOnInit() {
   }
-
 }

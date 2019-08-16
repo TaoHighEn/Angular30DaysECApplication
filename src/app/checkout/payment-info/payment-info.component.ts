@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+// Constant
+import { appPath } from 'src/app/app-path.const';
 
 @Component({
   selector: 'app-payment-info',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaymentInfoComponent implements OnInit {
 
+  path = appPath;
   constructor() { }
 
   ngOnInit() {
